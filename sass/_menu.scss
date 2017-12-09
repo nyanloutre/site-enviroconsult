@@ -1,0 +1,28 @@
+// _menu.scss
+
+nav {    
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+    background-color: rgba(0,0,0, 0.50);
+    
+    div {
+        background-color: rgba(0,0,0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: rotate(10deg);
+        height: 100%;
+        width: 100%;
+        position: inherit;
+        z-index: -100;
+    }
+    
+    a {
+        color: $nav-primary;
+        text-decoration: none;
+    }
+    
+    ul {
+        margin: 1.5rem;
+    }
+}

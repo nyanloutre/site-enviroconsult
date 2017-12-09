@@ -1,0 +1,23 @@
+// _content.scss
+
+section {
+    height: 100vh;
+    div {
+        width: 50%;
+        right: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+#accueil {
+    background-image: url("../img/page1.jpg");
+}

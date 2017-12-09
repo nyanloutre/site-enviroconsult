@@ -2,6 +2,8 @@
 
 section {
     height: 100vh;
+    background-position: center;
+    background-size: cover;
     div {
         width: 50%;
         right: 0;
@@ -20,4 +22,16 @@ section {
 
 #accueil {
     background-image: url("../img/page1.jpg");
+}
+
+#problematique_boues {
+    background-image: url("../img/page2.jpg");
+}
+
+#expertise_audi {
+    background-image: url("../img/page3.jpg");
+}
+
+#maitrise_ouvrage {
+    background-image: url("../img/page4.jpg");
 }

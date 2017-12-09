@@ -10,7 +10,9 @@ header {
         right: 1%;
         position: inherit;
         
-        font-family: sans;
+        font-family: $title-font-stack;
         font-style: italic;
+        font-weight: bold;
+        font-size: 3.5rem;
     }
 }

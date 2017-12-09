@@ -54,8 +54,10 @@ header {
   header h1 {
     right: 1%;
     position: inherit;
-    font-family: sans;
-    font-style: italic; }
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.5rem; }
 
 nav {
   position: fixed;
@@ -74,10 +76,22 @@ nav {
     color: #FFFFFF;
     text-decoration: none; }
   nav ul {
-    margin: 1.5rem; }
+    margin: 1.5rem;
+    font-size: 1.8rem; }
+    nav ul li {
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem; }
+    nav ul ul {
+      font-size: 1.3rem;
+      margin: 0;
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
 
 section {
-  height: 100vh; }
+  height: 100vh;
+  background-position: center;
+  background-size: cover; }
   section div {
     width: 50%;
     right: 0;
@@ -94,5 +108,14 @@ section {
 #accueil {
   background-image: url("../img/page1.jpg"); }
 
+#problematique_boues {
+  background-image: url("../img/page2.jpg"); }
+
+#expertise_audi {
+  background-image: url("../img/page3.jpg"); }
+
+#maitrise_ouvrage {
+  background-image: url("../img/page4.jpg"); }
+
 body {
-  font: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif; }
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif; }

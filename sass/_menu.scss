@@ -18,11 +18,6 @@ nav {
         z-index: -100;
     }
     
-    a {
-        color: $nav-primary;
-        text-decoration: none;
-    }
-    
     ul {
         margin: 1.5rem;
         font-size: 1.8rem;
@@ -30,6 +25,17 @@ nav {
         li {
             margin-top: 0.2rem;
             margin-bottom: 0.2rem;
+            
+            a {
+                color: $nav-default;
+                text-decoration: none;
+            }
+            
+            &.active {
+                a {
+                    color: $nav-active;
+                }
+            }
         }
         
         ul {

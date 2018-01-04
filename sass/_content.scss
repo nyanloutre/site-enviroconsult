@@ -14,8 +14,32 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        p {
+        h1 {
+            font-size: 4rem;
+            margin-left: 1rem;
+        }
+        ul {
             text-align: justify;
+            font-size: 1.3rem;
+            b {
+                font-weight: bold;
+            }
+            li {
+                margin: 1rem;
+                ul {
+                    list-style-type: square;
+                    li {
+                        margin: 0rem;
+                        margin-left: 1rem;
+                    }
+                    ul {
+                        list-style-type: circle;
+                    }
+                }
+            }
+        }
+        &.large {
+            width: 75%;
         }
     }
 }
@@ -58,6 +82,13 @@ section {
 
 #reference {
     background-image: url("../img/page10.jpg");
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        ul {
+            display: block;
+        }
+    }
 }
 
 #societe {

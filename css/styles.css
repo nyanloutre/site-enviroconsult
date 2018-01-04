@@ -104,8 +104,25 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; }
-    section div p {
-      text-align: justify; }
+    section div h1 {
+      font-size: 4rem;
+      margin-left: 1rem; }
+    section div ul {
+      text-align: justify;
+      font-size: 1.3rem; }
+      section div ul b {
+        font-weight: bold; }
+      section div ul li {
+        margin: 1rem; }
+        section div ul li ul {
+          list-style-type: square; }
+          section div ul li ul li {
+            margin: 0rem;
+            margin-left: 1rem; }
+          section div ul li ul ul {
+            list-style-type: circle; }
+    section div.large {
+      width: 75%; }
 
 #accueil {
   background-image: url("../img/page1.jpg"); }
@@ -136,6 +153,11 @@ section {
 
 #reference {
   background-image: url("../img/page10.jpg"); }
+  #reference ul {
+    display: flex;
+    flex-wrap: wrap; }
+    #reference ul ul {
+      display: block; }
 
 #societe {
   background-image: url("../img/page11.jpg"); }

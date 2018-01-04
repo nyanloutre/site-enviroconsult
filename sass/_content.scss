@@ -13,7 +13,7 @@ section {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         h1 {
             font-size: 4rem;
             margin-left: 1rem;
@@ -82,9 +82,16 @@ section {
 
 #reference {
     background-image: url("../img/page10.jpg");
+    div {
+        justify-content: flex-end;
+    }
     ul {
+        font-size: 1.2rem;
         display: flex;
         flex-wrap: wrap;
+        li.reference_item {
+            width: 40%;
+        }
         ul {
             display: block;
         }

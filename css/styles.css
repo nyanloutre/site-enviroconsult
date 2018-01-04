@@ -103,7 +103,7 @@ section {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; }
+    justify-content: center; }
     section div h1 {
       font-size: 4rem;
       margin-left: 1rem; }
@@ -153,9 +153,14 @@ section {
 
 #reference {
   background-image: url("../img/page10.jpg"); }
+  #reference div {
+    justify-content: flex-end; }
   #reference ul {
+    font-size: 1.2rem;
     display: flex;
     flex-wrap: wrap; }
+    #reference ul li.reference_item {
+      width: 40%; }
     #reference ul ul {
       display: block; }
 

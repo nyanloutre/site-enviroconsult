@@ -24,7 +24,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])):
     @mail($to,$subject,$htmlContent,$headers);
     
     echo '<h2>Envoi réussi vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
-else
+else:
     echo '<h2>Echec de la requète vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
 endif;
 ?>

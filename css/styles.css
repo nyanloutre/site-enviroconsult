@@ -122,6 +122,8 @@ section {
     section div h1 {
       font-size: 4rem;
       margin-left: 1rem; }
+    section div a {
+      color: white; }
     section div ul {
       text-align: justify;
       font-size: 1.3rem; }

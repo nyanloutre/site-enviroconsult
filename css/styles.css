@@ -138,6 +138,8 @@ section {
             list-style-type: circle; }
     section div.large {
       width: 75%; }
+    section div form input {
+      margin: 0.5rem; }
 
 #accueil {
   background-image: url("../img/page1.jpg"); }

@@ -41,6 +41,11 @@ section {
         &.large {
             width: 75%;
         }
+        form {
+            input {
+                margin: 0.5rem;
+            }
+        }
     }
 }
 

@@ -3,8 +3,9 @@
 header('Refresh: 5; URL=/');
 if(isset($_POST['submit']) && !empty($_POST['submit'])):
     //contact form submission code
-    $name = !empty($_POST['name'])?$_POST['name']:'';
-    $email = !empty($_POST['email'])?$_POST['email']:'';
+    $name = !empty($_POST['nom'])?$_POST['nom']:'';
+    $prenom = !empty($_POST['prenom'])?$_POST['prenom']:'';
+    $email = !empty($_POST['mail'])?$_POST['mail']:'';
     $message = !empty($_POST['message'])?$_POST['message']:'';
     
     $to = 'contact@enviro-consult.fr';
@@ -12,6 +13,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])):
     $htmlContent = "
         <h1>Details du formulaire</h1>
         <p><b>Nom: </b>".$name."</p>
+        <p><b>Prenom: </b>".$prenom."</p>
         <p><b>E-Mail: </b>".$email."</p>
         <p><b>Message: </b>".$message."</p>
     ";
@@ -23,8 +25,8 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])):
     //send email and shut errors
     @mail($to,$subject,$htmlContent,$headers);
     
-    echo '<h2>Envoi réussi vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
+    echo '<h2>✔️ Envoi réussi vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
 else:
-    echo '<h2>Echec de la requète vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
+    echo '<h2>✖️ Echec de la requète vous allez être redirigé vers la page d\'accueil dans 5 secondes</h2>';
 endif;
 ?>

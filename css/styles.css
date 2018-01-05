@@ -65,7 +65,8 @@ header {
   header div, header a {
     color: lightgray; }
     header div.active_lang, header a.active_lang {
-      color: white; }
+      color: white;
+      font-weight: bold; }
   header div {
     position: absolute;
     right: 0;

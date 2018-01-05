@@ -339,19 +339,27 @@
             <div>
                 <h1>Contact</h1>
                 <form action="send_form.php" method="post">
-                    Nom:
-                    <input type="text" name="nom">
-                    <br>
-                    Prénom:
-                    <input type="text" name="prenom">
-                    <br>
-                    E-Mail:
-                    <input type="text" name="mail">
-                    <br>
-                    Message:
-                    <input type="text" name="message">
-                    <br><br>
-                    <input type="submit" value="Submit">
+                    <table>
+                        <tr>
+                            <th>Nom:
+                            <th><input type="text" name="nom">
+                        </tr>
+                        <tr>
+                            <th>Prénom:
+                            <th><input type="text" name="prenom">
+                        </tr>
+                        <tr>
+                            <th>E-Mail:
+                            <th><input type="email" name="mail">
+                        </tr>
+                        <tr>
+                            <th>Message:
+                            <th><textarea cols="40" rows="5" name="message"></textarea>
+                        </tr>
+                        <tr>
+                            <th><input type="submit" value="Submit">
+                        </tr>
+                    </table>
                 </form>
             </div>
         </section>

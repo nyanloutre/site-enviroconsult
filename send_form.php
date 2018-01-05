@@ -1,7 +1,7 @@
 <?php
 //Redirect to home page after 5 seconds
 header('Refresh: 5; URL=/');
-if(isset($_POST['submit']) && !empty($_POST['submit'])):
+if(isset($_POST['message']) && !empty($_POST['message'])):
     //contact form submission code
     $name = !empty($_POST['nom'])?$_POST['nom']:'';
     $prenom = !empty($_POST['prenom'])?$_POST['prenom']:'';

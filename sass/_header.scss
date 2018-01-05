@@ -21,4 +21,19 @@ header {
         
         margin-top: 1rem;
     }
+    
+    div, a {
+        color: lightgray;
+        &.active_lang {
+            color: white;
+        }
+    }
+    
+    div {
+        position: absolute;
+        right: 0;
+        top: 60%;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
 }

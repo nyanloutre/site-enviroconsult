@@ -121,6 +121,10 @@ section {
     justify-content: center; }
     section div h1 {
       font-size: 4rem;
+      margin-left: 1rem;
+      margin-bottom: 1rem; }
+    section div h2 {
+      font-size: 2rem;
       margin-left: 1rem; }
     section div a {
       color: white; }
